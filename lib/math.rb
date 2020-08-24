@@ -20,8 +20,8 @@ end
 
 def modulo(num1, num2)
   quotient = num1 / num2
-  quotient.floor * 
-
+  mod = num1 - (quotient.floor * num2)
+  return mod
 end
 
 def square_root(num)
